@@ -4,9 +4,10 @@ class LLNode:
         self.next = next
 
 
-def create_linked_list(nums):
+def create_linked_list(nums):   
+
  """ Assumes the list has atleast one element """
-     head = LLNode(nums[0])
+    head = LLNode(nums[0])
     current = head
         for i in range(1, len(nums)):
             new_node = LLNode(nums[i])
